@@ -1,0 +1,85 @@
+body{
+    background-color:white; 
+}
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    height:64px;
+}
+.header--logo 
+{
+    color:grey;
+}
+
+.header--img
+{
+    height: 40px;
+    margin-left: 24px;
+}
+
+.header--spec-container {
+    margin-left: auto;
+    display: flex;
+    gap: 16px; /* Add spacing between the h2 elements if needed */
+    margin-right:16px;
+    color:dimgrey;
+    font-weight:normal;
+    font-family:arial;
+}
+
+/* CONTAINER ONE */
+.container--one
+{
+    height:700px;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    background-color:lightgrey;
+    align-items:center;
+    
+}
+.container-one-info
+{
+    position: relative;
+    top: -50px;
+    margin-left:24px;
+    flex-direction: column; /* Stack children vertically */
+
+}
+.container-one-info h1
+{
+    font-size:3.4em;
+    color:grey;
+   
+    
+}
+
+.container-one-info p
+{
+    font-size:1.75rem;
+    font-weight:bold;
+    color:grey;
+   
+}
+.start-box
+{
+    display:flex;
+    height: 54px;
+    width: 350px;
+    background-color:grey;
+    align-items:center;
+    justify-content: center;
+    margin-top:3.25rem;
+}
+.start-box p
+{
+    color:white;
+    font-weight:normal;
+}
+
+.container--one-img  {
+    max-width: 60%; /* Ensure image doesn’t exceed the width of its container */
+    height: auto; /* Maintain aspect ratio */
+    padding: 32px 24px;
+}
