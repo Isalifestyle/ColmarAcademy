@@ -1,5 +1,7 @@
 body{
     background-color:white; 
+    display: border-box;
+
 }
 /* HEADER */
 header {
@@ -29,6 +31,7 @@ header {
 }
 
 /* CONTAINER ONE */
+
 .container--one
 {
     height:700px;
@@ -42,7 +45,6 @@ header {
 .container-one-info
 {
     position: relative;
-    top: -50px;
     margin-left:24px;
     flex-direction: column; /* Stack children vertically */
 
@@ -82,4 +84,106 @@ header {
     max-width: 60%; /* Ensure image doesn’t exceed the width of its container */
     height: auto; /* Maintain aspect ratio */
     padding: 32px 24px;
+
 }
+
+/* CONTAINER-TWO */
+.container-two
+{
+    height:700px;
+    width:100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+    background-color:#fff;
+}
+.container-two-right img
+{
+   display:flex;
+   flex-direction:column;
+   width:40%;
+   height:100%;
+   
+}
+.container-two-right
+{
+   position:relative;
+   width:40%;
+   display:border-box;
+
+  
+}
+
+.container-two-right img
+{
+
+    width:175px;
+    padding:16px;
+    
+}
+.container-infoR
+{
+    
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    width:100%;
+    height:auto;
+
+}
+.container-infoR-img
+{
+    width:30%;
+}
+.info
+{
+    display:flex;
+    flex-direction:column;
+    margin-top:60px;
+    gap:10px;
+}
+.info h2
+{
+    font-size:24px;
+    font-weight:bold; 
+
+}
+.info p
+{
+    font-size:16px;
+}
+
+
+.container-two-left 
+{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    height: auto; /* Maintain aspect ratio */
+    justify-content:left;
+    margin: 32px 24px 32px 24px;
+
+
+
+}
+.container-two-left img
+{
+    display:flex;
+    justify-content:left;
+    height: auto; /* Maintain aspect ratio */
+    width:97.8%;
+}
+ .container-content  {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* Center text within the children */
+    gap:15px;
+}
+.container-content h5 
+{
+    text-align:left;
+    padding-left:7px;
+    padding-top:5px;
+}
+
+/* Need to understand gap vs padding */
