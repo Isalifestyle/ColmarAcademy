@@ -96,6 +96,7 @@ header {
     justify-content: flex-start;
     align-items:center;
     background-color:#fff;
+    font-family:arial;
 }
 .container-two-right img
 {
@@ -110,6 +111,7 @@ header {
    position:relative;
    width:40%;
    display:border-box;
+   font-family:arial;
 
   
 }
@@ -129,6 +131,7 @@ header {
     gap:30px;
     width:100%;
     height:auto;
+    font-family:arial;
 
 }
 .container-infoR-img
@@ -141,6 +144,7 @@ header {
     flex-direction:column;
     margin-top:60px;
     gap:10px;
+    font-family:arial;
 }
 .info h2
 {
@@ -151,6 +155,7 @@ header {
 .info p
 {
     font-size:16px;
+    font-family:arial;
 }
 
 
@@ -162,6 +167,7 @@ header {
     height: auto; /* Maintain aspect ratio */
     justify-content:left;
     margin: 32px 24px 32px 24px;
+    font-family:arial;
 
 
 
@@ -187,3 +193,199 @@ header {
 }
 
 /* Need to understand gap vs padding */
+
+/* CONTAINER 3 */
+
+.container--three
+{
+    height:1100px;
+    width:100%; 
+    background-color:lightgrey;
+    display:flex;
+    align-content: center;
+    flex-wrap:wrap;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   
+}
+
+.container--three img
+{
+    min-width: 400px;
+    max-width: 400px;
+}
+
+
+.container--three-content {
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    text-align:center; /* THIS IS SO IMPORTANT IS YOU WANT TO REMOVE THE COLUMN GAPS!!!!! */
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+.three-info
+{
+    background-color:#fff;
+    height:200px;
+    width: 400px;
+    
+
+}
+.section--three-title{
+    position:absolute;
+    color:black;
+    right:42%;
+    top:1520px;
+    font-size:38px;
+    font-weight:bold;
+}
+
+.three-info h3
+{
+    margin-top:16px;
+    margin-bottom:24px;
+    font-size:30px;
+}
+.three-info p
+{
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:8px;
+    margin-left:16px;
+    margin-right:16px;
+}
+
+/* CONTAINER 4 */
+.container--four
+{
+    height:650px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+
+    
+}
+.container--four-vid 
+{
+    height:100%;
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    margin-right:14px;
+    padding-right:24px;
+}
+.container--four-vid video
+{
+    overflow:hidden;
+    padding-top:16px;
+    padding-left:14px;
+    width:98%;
+    object-fit:scale-down;
+}
+.container--four-infovid
+{
+    width:90%;
+    padding-left:14px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+    
+}
+.container--four-infovid h2
+{
+    font-size:25px;
+    font-weight:bold;
+    padding-top:24px;
+    padding-bottom:8px;
+    color:rgb(120, 119, 119);
+}
+.container--four-infovid h4
+{
+    line-height:20px;
+    padding-bottom:32px;
+    color:rgb(163, 163, 163)
+}
+
+.container--four-R
+{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+    
+}
+.four--R-info 
+{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    
+   
+    
+    
+}
+.four--info
+{
+    width:60%;
+    margin-left:5px;
+    color:grey;
+}
+.four--info h2
+{
+    font-size:24px;
+    font-weight:bold;
+    margin-bottom:16px;
+    
+    
+}
+
+.four--R-info img
+ {
+    width:150px;
+    display:flex;
+    align-items:center;
+    padding:16px;
+ }
+
+ .header--final
+ {
+    text-align:center;
+    font-size:42px;
+    margin-top:32px;
+    margin-bottom:16px;
+ }
+
+ /* FOOTER */
+ footer
+ {
+    
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    padding-top:16px;
+    padding-left:16px;
+    padding-bottom:50px;
+ }
+
+ .copyright 
+ {
+    width:50%;
+    text-align:left;
+ }
+ .terms-privacy
+ {
+    width:50%;
+    word-spacing:16px;
+    text-align:right;
+    padding-right:44px;
+ }
